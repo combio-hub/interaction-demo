@@ -1,0 +1,48 @@
+MATRIZES E CATEGORIAS PARA A AULA
+
+Os CSVs usam vírgula como separador, ponto decimal e codificação UTF-8.
+Importação das matrizes no R: read.csv(..., row.names = 1, check.names = FALSE,
+fileEncoding = "UTF-8"). A primeira coluna contém os identificadores das linhas.
+Não há totais, legendas, fórmulas, células vazias ou colunas de resumo nas matrizes.
+
+polinizacao_matriz.csv: 12 plantas x 102 visitantes; 167 pares; 550 registros.
+Fonte: polinizacao1.xls, aba originai, A1:CY13.
+Unidade: indivíduos visitantes coletados nas flores; Barrett e Helenurm (1987).
+
+dispersao_matriz.csv: 87 unidades vegetais x 18 frugívoros; 236 pares; soma 1177.
+Fonte: dispersao1.xls, aba dados, A1:S88; Gorchov et al. (1995).
+Unidade: número de amostras fecais que continham sementes de cada táxon.
+Uma mesma amostra pode conter mais de um táxon: a soma não é necessariamente
+o número de amostras independentes. As duas linhas Araceae 1 foram mantidas como
+Araceae 1 [linha 6] e Araceae 1 [linha 7], sem presumir identidade taxonômica.
+O bloco binário X:AP repete os dados sob outra representação e não foi somado.
+A aba sem Cper é uma versão editada/subconjunto; não substitui a matriz completa.
+Seu destaque amarelo de Amaranthace não tem categoria documentada e não foi
+interpretado como grupo biológico. A proveniência das categorias usadas é explícita.
+
+herbivoria_matriz.csv: 54 plantas x 24 herbívoros; 173 pares.
+Fonte: herbivoria.xls, aba original(marathon), A1:Y55; Joern (1979).
+Unidade: 0/1, presença de consumo; comunidade de Marathon.
+
+CADA MATRIZ POSSUI UM ARQUIVO *_categorias.csv
+id: chave que coincide exatamente com o nome na matriz.
+especie: rótulo exibido no gráfico; unidades repetidas conservam o sufixo de linha.
+guilda: conjunto bipartido (Plantas, Visitantes florais, Frugívoros ou Herbívoros).
+grupo: categoria usada na cor; na dispersão distingue Aves de Morcegos.
+cor: cor legível escolhida para as figuras, em hexadecimal.
+nome_original: grafia na planilha, antes de aparar/normalizar espaços.
+cor_fonte_original/cor_fundo_original: cores extraídas do XLS; vazio = não definida.
+celula_original: endereço da espécie na aba usada.
+fonte_categoria: evidência que sustenta o grupo.
+observacao: ressalvas de identificação.
+
+Na dispersão, os sete nomes azuis são aves e os onze vermelhos são morcegos.
+A legenda dados!U3:U4 foi cruzada com a classificação textual da aba propriedades.
+Nas outras planilhas as cores distinguem apenas as duas guildas. Não foram
+inventados grupos taxonômicos, funcionais ou categorias sem legenda.
+Espaços finais e espaços internos repetidos foram normalizados nas chaves.
+Não foram corrigidos nomes científicos por suposição nem agregados táxons.
+
+redes.csv reúne tipo de dado, origem, unidade, referência e observações.
+visitantes_cacau_base.xlsx está fora da aula. O arquivo corrompido de
+ectoparasitismo foi removido conforme solicitado.

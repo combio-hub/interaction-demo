@@ -1,0 +1,3 @@
+"modelo";"codigo";"metrica";"observado";"media_nula";"dp_nulo";"q025";"q975";"SES";"p_inferior";"p_superior";"p_bilateral";"B";"status";"p_holm"
+"quasiswap";"NODF";"Aninhamento (NODF)";31,1699186210713;30,635497598185;0,77452407008848;28,8838093485824;32,0714814149633;0,689999244084497;0,765;0,24;0,48;199;"Comparação calculada";0,48
+"quasiswap";"Q";"Modularidade (Q)";0,402168465368038;0,365933211112195;0,0088150057443426;0,350760967623375;0,384531725082696;4,11063308485059;1;0,005;0,01;199;"Comparação calculada";0,02

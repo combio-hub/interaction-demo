@@ -1,0 +1,22 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+[1] "Portuguese_Brazil.utf8"
+
+Attaching package: 'igraph'
+
+The following objects are masked from 'package:stats':
+
+    decompose, spectrum
+
+The following object is masked from 'package:base':
+
+    union
+
+Warning message:
+package 'ggplot2' was built under R version 4.5.3 
+VALIDADO: polinizacao - cores personalizadas no grafo, Sankey e histogramas; nomes em itálico; todos os nós e interações preservados.
+VALIDADO: dispersao - cores personalizadas no grafo, Sankey e histogramas; nomes em itálico; todos os nós e interações preservados.
+VALIDADO: herbivoria - cores personalizadas no grafo, Sankey e histogramas; nomes em itálico; todos os nós e interações preservados.

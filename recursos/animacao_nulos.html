@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Modelos nulos: construção e restrições</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f5f6f7;color:#20282e;font-family:Arial,sans-serif}main{max-width:1500px;margin:auto;padding:26px}h1{margin:0 0 6px;font-size:28px}h2{font-size:19px;margin:0 0 8px}p{line-height:1.45;margin:8px 0}header p{color:#56636b}.controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:20px 0 12px}label{font-size:13px;color:#46545e}select,button{font:inherit;padding:10px 13px;border:1px solid #c8d0d6;border-radius:6px;background:white;color:#20282e}button{cursor:pointer}button.primary{background:#173f54;color:white;border-color:#173f54}button:disabled{opacity:.45;cursor:default}.explanation{background:white;padding:14px 18px;border-left:4px solid #0072b2;border-radius:4px;font-size:14px}.explanation p{margin:4px 0}.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:18px 0}.panel{background:white;border:1px solid #dfe4e8;border-radius:8px;padding:18px;min-width:0}.stats{display:flex;gap:18px;flex-wrap:wrap;font-size:13px;color:#56636b}.stats strong{font-size:20px;color:#20282e;margin-right:5px}svg{width:100%;height:auto;display:block}svg text{font-family:Arial,sans-serif}#status{font-size:14px;min-height:23px}#stepText{font-size:14px;min-height:40px}.progress{display:flex;gap:14px;align-items:center;margin:12px 0}input[type=range]{flex:1;accent-color:#0072b2}.legend{display:flex;gap:20px;flex-wrap:wrap;font-size:13px}.dot{display:inline-block;width:12px;height:12px;border-radius:50%;vertical-align:middle;margin-right:6px}.note{color:#56636b;font-size:13px}.foot{display:flex;gap:18px;justify-content:space-between;flex-wrap:wrap}a{color:#0072b2}@media(max-width:900px){main{padding:16px}.grid{grid-template-columns:1fr}h1{font-size:23px}}
+</style>
+</head>
+<body>
+<main>
+<header><h1>Como uma rede nula é construída?</h1><p id="networkName"></p></header>
+<div class="controls">
+<label>Procedimento<br><select id="model"></select></label>
+<label>Visualização<br><select id="view"><option value="graph">Grafo bipartido</option><option value="matrix">Matriz de interação</option></select></label>
+<button id="play" class="primary">Reproduzir</button><button id="next">Próxima etapa</button><button id="reset">Reiniciar</button>
+<label>Velocidade<br><select id="speed"><option value="800">Lenta</option><option value="300" selected>Média</option><option value="90">Rápida</option></select></label>
+</div>
+<div class="explanation"><p id="explanation"></p><p><strong>O que observar: </strong><span id="rule"></span></p></div>
+<div class="progress"><label for="position">Etapa</label><input id="position" type="range" min="0" value="0" aria-label="Etapa da demonstração"><span id="counter"></span></div>
+<p id="stepText"></p>
+<div class="grid">
+<section class="panel"><h2>Rede observada</h2><div class="stats" id="observedStats"></div><svg id="observed" viewBox="0 0 640 670" role="img" aria-label="Rede observada"></svg></section>
+<section class="panel"><h2 id="randomTitle">Rede em construção</h2><div class="stats" id="randomStats"></div><svg id="random" viewBox="0 0 640 670" role="img" aria-label="Estado da rede aleatória"></svg><p id="status"></p></section>
+</div>
+<div class="foot"><div class="legend" id="legend"></div><span class="note">Roxo: valores alterados desde a etapa anterior. Passe o cursor para ver os nomes e pesos.</span></div>
+<p class="note">Quadros de uma construção não são réplicas independentes para um teste. Os testes da aula usam redes completas. A classificação dos nós vem das planilhas originais.</p>
+</main>
+<script>
+const dados = /*DADOS*/;
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let indice=0,tempo=null;
+const modelo=()=>dados.modelos[Number($('model').value)];
+const pontos=(n,top=24,bottom=640)=>Array.from({length:n},(_,i)=>n===1?(top+bottom)/2:top+i*(bottom-top)/(n-1));
+const linhas=dados.plantas.length,colunas=dados.visitantes.length;
+let maxPeso=1;
+for(const m of dados.modelos)for(const q of m.quadros)for(const e of q.arestas)maxPeso=Math.max(maxPeso,e[2]);
+for(const e of dados.observado.arestas)maxPeso=Math.max(maxPeso,e[2]);
+function estatisticas(q){return `<span><strong>${q.L}</strong>ligações</span><span><strong>${q.total}</strong>soma dos pesos</span><span><strong>${(q.L/(linhas*colunas)).toFixed(3).replace('.',',')}</strong>conectância</span>`;}
+function selecionarRotulos(totais,posicoes,inicio=0){
+ const escolhidos=[];
+ const selecionados=new Set(dados.rotulos??[...dados.observado.linhas,...dados.observado.colunas].map((v,i)=>({v,i})).filter(x=>x.v>=10).sort((a,b)=>b.v-a.v).slice(0,20).map(x=>x.i));
+ const ordem=totais.map((v,i)=>({v,i})).filter(x=>selecionados.has(x.i+inicio)).sort((a,b)=>b.v-a.v);
+ for(const x of ordem)if(escolhidos.every(i=>Math.abs(posicoes[i]-posicoes[x.i])>=14))escolhidos.push(x.i);
+ return new Set(escolhidos);
+}
+function desenhar(id,q,anterior){
+ const velhos=new Map((anterior?.arestas||[]).map(e=>[e[0]+','+e[1],e[2]]));
+ let partes=[];
+ if($('view').value==='matrix'){
+  const x0=42,y0=32,w=550/colunas,h=580/linhas;
+  partes.push(`<text x="320" y="17" text-anchor="middle" font-size="12">${esc(dados.animais)} (colunas)</text>`);
+  partes.push(`<text x="15" y="320" transform="rotate(-90 15 320)" text-anchor="middle" font-size="12">Plantas (linhas)</text>`);
+  partes.push(`<rect x="${x0}" y="${y0}" width="550" height="580" fill="#f2f5f6" stroke="#bdc9d0"/>`);
+  for(const [i,j,v] of q.arestas){
+   const mudou=id==='random'&&velhos.get(i+','+j)!==v;
+   const cor=mudou?'#8e44ad':'#0072b2';
+   partes.push(`<rect x="${x0+j*w}" y="${y0+i*h}" width="${Math.max(.6,w-.5)}" height="${Math.max(.6,h-.5)}" fill="${cor}" fill-opacity="${.3+.7*Math.sqrt(v/maxPeso)}"><title>${esc(dados.plantas[i])} × ${esc(dados.visitantes[j])}: ${v}</title></rect>`);
+  }
+  partes.push(`<text x="320" y="650" text-anchor="middle" font-size="12" fill="#56636b">Branco/cinza: zero · Mais escuro: maior peso</text>`);
+ }else{
+  const py=pontos(linhas),ay=pontos(colunas),x1=205,x2=425;
+  const lp=selecionarRotulos(dados.observado.linhas,py),la=selecionarRotulos(dados.observado.colunas,ay,linhas);
+  for(const [i,j,v] of q.arestas){
+   const mudou=id==='random'&&velhos.get(i+','+j)!==v;
+   const cor=mudou?'#8e44ad':'#5d8397';
+   partes.push(`<path d="M${x1},${py[i]} C290,${py[i]} 340,${ay[j]} ${x2},${ay[j]}" fill="none" stroke="${cor}" stroke-width="${.35+4*Math.sqrt(v/maxPeso)}" stroke-opacity="${mudou?.8:.24}"><title>${esc(dados.plantas[i])} × ${esc(dados.visitantes[j])}: ${v}</title></path>`);
+  }
+  for(let i=0;i<linhas;i++){
+   partes.push(`<circle cx="${x1}" cy="${py[i]}" r="3.4" fill="${dados.cores[i]}"><title>${esc(dados.plantas[i])}; soma: ${q.linhas[i]}</title></circle>`);
+   if(lp.has(i))partes.push(`<text x="${x1-8}" y="${py[i]+3}" text-anchor="end" font-size="11" font-style="italic" fill="${dados.cores[i]}">${esc(dados.plantas[i])}</text>`);
+  }
+  for(let j=0;j<colunas;j++){
+   partes.push(`<circle cx="${x2}" cy="${ay[j]}" r="3.1" fill="${dados.cores[linhas+j]}"><title>${esc(dados.visitantes[j])}; soma: ${q.colunas[j]}</title></circle>`);
+   if(la.has(j))partes.push(`<text x="${x2+8}" y="${ay[j]+3}" font-size="11" font-style="italic" fill="${dados.cores[linhas+j]}">${esc(dados.visitantes[j])}</text>`);
+  }
+  partes.push(`<text x="${x1}" y="665" text-anchor="middle" font-size="12" font-weight="bold">Plantas</text><text x="${x2}" y="665" text-anchor="middle" font-size="12" font-weight="bold">${esc(dados.animais)}</text>`);
+ }
+ $(id).innerHTML=partes.join('');
+}
+function render(){
+ const m=modelo(),q=m.quadros[indice];
+ $('position').max=m.quadros.length-1;$('position').value=indice;
+ $('counter').textContent=`${indice+1} / ${m.quadros.length}`;
+ $('stepText').textContent=m.textos[indice];
+ $('observedStats').innerHTML=estatisticas(dados.observado);$('randomStats').innerHTML=estatisticas(q);
+ const iguais=q.linhas.every((x,i)=>x===dados.observado.linhas[i])&&q.colunas.every((x,j)=>x===dados.observado.colunas[j]);
+ $('status').textContent=iguais?'Totais de todas as espécies iguais aos observados.':`Construção parcial: ${q.total} de ${dados.observado.total} unidades alocadas.`;
+ $('randomTitle').textContent=indice===m.quadros.length-1?'Rede nula completa':(m.nome.startsWith('quasiswap')?'Rede nula completa':'Estado da rede aleatória');
+ $('next').disabled=indice===m.quadros.length-1;
+ desenhar('observed',dados.observado,null);desenhar('random',q,indice?m.quadros[indice-1]:null);
+}
+function pausar(){if(tempo!==null)clearInterval(tempo);tempo=null;$('play').textContent='Reproduzir';}
+function selecionar(){pausar();indice=0;$('explanation').textContent=modelo().explicacao;$('rule').textContent=modelo().regra;render();}
+function avancar(){if(indice<modelo().quadros.length-1){indice++;render();}else pausar();}
+$('model').innerHTML=dados.modelos.map((m,i)=>`<option value="${i}">${esc(m.nome)}</option>`).join('');
+$('networkName').textContent=dados.titulo;
+$('legend').innerHTML=dados.grupos.map(g=>`<span><i class="dot" style="background:${g.cor}"></i>${esc(g.grupo)}</span>`).join('');
+$('model').addEventListener('change',selecionar);
+$('view').addEventListener('change',render);
+$('position').addEventListener('input',()=>{pausar();indice=Number($('position').value);render();});
+$('next').addEventListener('click',()=>{pausar();avancar();});
+$('reset').addEventListener('click',selecionar);
+$('play').addEventListener('click',()=>{if(tempo!==null){pausar();return;}if(indice===modelo().quadros.length-1)indice=0;$('play').textContent='Pausar';tempo=setInterval(avancar,Number($('speed').value));render();});
+$('speed').addEventListener('change',()=>{if(tempo!==null){pausar();$('play').click();}});
+selecionar();
+</script>
+</body>
+</html>

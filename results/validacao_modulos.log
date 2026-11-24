@@ -1,0 +1,26 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+[1] "Portuguese_Brazil.utf8"
+
+Attaching package: 'igraph'
+
+The following objects are masked from 'package:stats':
+
+    decompose, spectrum
+
+The following object is masked from 'package:base':
+
+    union
+
+Warning message:
+package 'ggplot2' was built under R version 4.5.3 
+null device 
+          1 
+         rede n_modulos         Q
+1 polinizacao         8 0.5673240
+2   dispersao         5 0.4509290
+3  herbivoria         7 0.4021685
+VALIDADO: partições e Q concordantes; nomes, posições, métricas e interações preservados; figura por categorias intacta; polígonos de 1 e 2 nós; opção sem áreas; documentação completa.

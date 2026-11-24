@@ -1,0 +1,115 @@
+"id","especie","guilda","grupo","cor","nome_original","cor_fonte_original","cor_fundo_original","celula_original","fonte_categoria","observacao","grau","soma_interacoes","modulo"
+"Aralia nudicaulis","Aralia nudicaulis","Plantas","Plantas","#008000","Aralia nudicaulis","#006411",NA,"originai!A2","Eixo das linhas e cor dos nomes",NA,17,66,1
+"Chimaphila umbellata","Chimaphila umbellata","Plantas","Plantas","#008000","Chimaphila umbellata","#006411",NA,"originai!A3","Eixo das linhas e cor dos nomes",NA,3,70,2
+"Clintonia borealis","Clintonia borealis","Plantas","Plantas","#008000","Clintonia borealis","#006411",NA,"originai!A4","Eixo das linhas e cor dos nomes",NA,15,24,3
+"Cornus canadensis","Cornus canadensis","Plantas","Plantas","#008000","Cornus canadensis","#006411",NA,"originai!A5","Eixo das linhas e cor dos nomes",NA,65,167,4
+"Cypripedium acaule","Cypripedium acaule","Plantas","Plantas","#008000","Cypripedium acaule","#006411",NA,"originai!A6","Eixo das linhas e cor dos nomes",NA,2,8,1
+"Linnaea borealis","Linnaea borealis","Plantas","Plantas","#008000","Linnaea borealis","#006411",NA,"originai!A7","Eixo das linhas e cor dos nomes",NA,21,37,5
+"Maianthemum canadense","Maianthemum canadense","Plantas","Plantas","#008000","Maianthemum canadense","#006411",NA,"originai!A8","Eixo das linhas e cor dos nomes",NA,26,85,6
+"Medeola virginiana","Medeola virginiana","Plantas","Plantas","#008000","Medeola virginiana","#006411",NA,"originai!A9","Eixo das linhas e cor dos nomes",NA,1,1,7
+"Oxalis montana","Oxalis montana","Plantas","Plantas","#008000","Oxalis montana","#006411",NA,"originai!A10","Eixo das linhas e cor dos nomes",NA,6,81,1
+"Pyrola secunda","Pyrola secunda","Plantas","Plantas","#008000","Pyrola secunda","#006411",NA,"originai!A11","Eixo das linhas e cor dos nomes",NA,4,4,8
+"Trientalis borealis","Trientalis borealis","Plantas","Plantas","#008000","Trientalis borealis","#006411",NA,"originai!A12","Eixo das linhas e cor dos nomes",NA,3,3,5
+"Trillium undulatum","Trillium undulatum","Plantas","Plantas","#008000","Trillium undulatum","#006411",NA,"originai!A13","Eixo das linhas e cor dos nomes",NA,4,4,5
+"Acmaeopsoides rufula","Acmaeopsoides rufula","Visitantes florais","Visitantes florais","#D55E00","Acmaeopsoides rufula","#0000FF",NA,"originai!B1","Eixo das colunas e cor dos nomes",NA,1,1,4
+"Agiotes stabilis","Agiotes stabilis","Visitantes florais","Visitantes florais","#D55E00","Agiotes stabilis","#0000FF",NA,"originai!C1","Eixo das colunas e cor dos nomes",NA,1,2,6
+"Ancistrocerus sp.","Ancistrocerus sp.","Visitantes florais","Visitantes florais","#D55E00","Ancistrocerus sp.","#0000FF",NA,"originai!D1","Eixo das colunas e cor dos nomes",NA,1,2,4
+"Andrena melanochroa","Andrena melanochroa","Visitantes florais","Visitantes florais","#D55E00","Andrena melanochroa","#0000FF",NA,"originai!E1","Eixo das colunas e cor dos nomes",NA,1,3,4
+"Andrena miranda","Andrena miranda","Visitantes florais","Visitantes florais","#D55E00","Andrena miranda","#0000FF",NA,"originai!F1","Eixo das colunas e cor dos nomes",NA,2,3,4
+"Andrena nivalis","Andrena nivalis","Visitantes florais","Visitantes florais","#D55E00","Andrena nivalis","#0000FF",NA,"originai!G1","Eixo das colunas e cor dos nomes",NA,2,2,6
+"Andrena rufosignata","Andrena rufosignata","Visitantes florais","Visitantes florais","#D55E00","Andrena rufosignata","#0000FF",NA,"originai!H1","Eixo das colunas e cor dos nomes",NA,1,2,4
+"Andrena sigmundi","Andrena sigmundi","Visitantes florais","Visitantes florais","#D55E00","Andrena sigmundi","#0000FF",NA,"originai!I1","Eixo das colunas e cor dos nomes",NA,1,1,4
+"Andrena thaspii","Andrena thaspii","Visitantes florais","Visitantes florais","#D55E00","Andrena thaspii","#0000FF",NA,"originai!J1","Eixo das colunas e cor dos nomes",NA,1,1,4
+"Andrena wheeleri","Andrena wheeleri","Visitantes florais","Visitantes florais","#D55E00","Andrena wheeleri","#0000FF",NA,"originai!K1","Eixo das colunas e cor dos nomes",NA,1,1,1
+"Andrena wilkella","Andrena wilkella","Visitantes florais","Visitantes florais","#D55E00","Andrena wilkella","#0000FF",NA,"originai!L1","Eixo das colunas e cor dos nomes",NA,1,1,3
+"Andrena w-scripta","Andrena w-scripta","Visitantes florais","Visitantes florais","#D55E00","Andrena w-scripta","#0000FF",NA,"originai!M1","Eixo das colunas e cor dos nomes",NA,2,8,4
+"Anthaxia expansa","Anthaxia expansa","Visitantes florais","Visitantes florais","#D55E00","Anthaxia expansa","#0000FF",NA,"originai!N1","Eixo das colunas e cor dos nomes",NA,2,4,4
+"Anthonomus sp.","Anthonomus sp.","Visitantes florais","Visitantes florais","#D55E00","Anthonomus sp.","#0000FF",NA,"originai!O1","Eixo das colunas e cor dos nomes",NA,1,1,4
+"Blera badia","Blera badia","Visitantes florais","Visitantes florais","#D55E00","Blera badia","#0000FF",NA,"originai!P1","Eixo das colunas e cor dos nomes",NA,1,1,4
+"Blera confusa","Blera confusa","Visitantes florais","Visitantes florais","#D55E00","Blera confusa","#0000FF",NA,"originai!Q1","Eixo das colunas e cor dos nomes",NA,1,10,4
+"Blera nigripes","Blera nigripes","Visitantes florais","Visitantes florais","#D55E00","Blera nigripes","#0000FF",NA,"originai!R1","Eixo das colunas e cor dos nomes",NA,1,1,4
+"Bombus perplexus","Bombus perplexus","Visitantes florais","Visitantes florais","#D55E00","Bombus perplexus","#0000FF",NA,"originai!S1","Eixo das colunas e cor dos nomes",NA,2,5,1
+"Bombus ternarius","Bombus ternarius","Visitantes florais","Visitantes florais","#D55E00","Bombus ternarius","#0000FF",NA,"originai!T1","Eixo das colunas e cor dos nomes",NA,2,3,3
+"Bombus terricola","Bombus terricola","Visitantes florais","Visitantes florais","#D55E00","Bombus terricola","#0000FF",NA,"originai!U1","Eixo das colunas e cor dos nomes",NA,4,13,3
+"Bombus vagans","Bombus vagans","Visitantes florais","Visitantes florais","#D55E00","Bombus vagans","#0000FF",NA,"originai!V1","Eixo das colunas e cor dos nomes",NA,8,41,4
+"Bombylius major","Bombylius major","Visitantes florais","Visitantes florais","#D55E00","Bombylius major","#0000FF",NA,"originai!W1","Eixo das colunas e cor dos nomes",NA,2,7,4
+"Bombylius pigmaeus","Bombylius pigmaeus","Visitantes florais","Visitantes florais","#D55E00","Bombylius pigmaeus","#0000FF",NA,"originai!X1","Eixo das colunas e cor dos nomes",NA,1,1,6
+"Cantharis sp.","Cantharis sp.","Visitantes florais","Visitantes florais","#D55E00","Cantharis sp.","#0000FF",NA,"originai!Y1","Eixo das colunas e cor dos nomes",NA,1,1,4
+"Carposcalis confusus","Carposcalis confusus","Visitantes florais","Visitantes florais","#D55E00","Carposcalis confusus","#0000FF",NA,"originai!Z1","Eixo das colunas e cor dos nomes",NA,5,5,5
+"Carposcalis obscura","Carposcalis obscura","Visitantes florais","Visitantes florais","#D55E00","Carposcalis obscura","#0000FF",NA,"originai!AA1","Eixo das colunas e cor dos nomes",NA,1,1,5
+"Cateres pennatus","Cateres pennatus","Visitantes florais","Visitantes florais","#D55E00","Cateres pennatus","#0000FF",NA,"originai!AB1","Eixo das colunas e cor dos nomes",NA,1,1,1
+"Celastrina argiolus","Celastrina argiolus","Visitantes florais","Visitantes florais","#D55E00","Celastrina argiolus","#0000FF",NA,"originai!AC1","Eixo das colunas e cor dos nomes",NA,1,2,4
+"Chalcosyrphus curvarius","Chalcosyrphus curvarius","Visitantes florais","Visitantes florais","#D55E00","Chalcosyrphus curvarius","#0000FF",NA,"originai!AD1","Eixo das colunas e cor dos nomes",NA,1,1,4
+"Chalcosyrphus inarmatus","Chalcosyrphus inarmatus","Visitantes florais","Visitantes florais","#D55E00","Chalcosyrphus inarmatus","#0000FF",NA,"originai!AE1","Eixo das colunas e cor dos nomes",NA,1,1,4
+"Chalcosyrphus memorum","Chalcosyrphus memorum","Visitantes florais","Visitantes florais","#D55E00","Chalcosyrphus memorum","#0000FF",NA,"originai!AF1","Eixo das colunas e cor dos nomes",NA,1,1,4
+"Chalcosyrphus nigra","Chalcosyrphus nigra","Visitantes florais","Visitantes florais","#D55E00","Chalcosyrphus nigra","#0000FF",NA,"originai!AG1","Eixo das colunas e cor dos nomes",NA,1,2,4
+"Cheilosia pallipes","Cheilosia pallipes","Visitantes florais","Visitantes florais","#D55E00","Cheilosia pallipes","#0000FF",NA,"originai!AH1","Eixo das colunas e cor dos nomes",NA,1,2,1
+"Cheilosia sialia","Cheilosia sialia","Visitantes florais","Visitantes florais","#D55E00","Cheilosia sialia","#0000FF",NA,"originai!AI1","Eixo das colunas e cor dos nomes",NA,1,2,4
+"Cheilosia slossonae","Cheilosia slossonae","Visitantes florais","Visitantes florais","#D55E00","Cheilosia slossonae","#0000FF",NA,"originai!AJ1","Eixo das colunas e cor dos nomes",NA,1,1,6
+"Cheilosia tristis","Cheilosia tristis","Visitantes florais","Visitantes florais","#D55E00","Cheilosia tristis","#0000FF",NA,"originai!AK1","Eixo das colunas e cor dos nomes",NA,1,1,1
+"Crabro sp.","Crabro sp.","Visitantes florais","Visitantes florais","#D55E00","Crabro sp.","#0000FF",NA,"originai!AL1","Eixo das colunas e cor dos nomes",NA,2,2,5
+"Dalopius sp.","Dalopius sp.","Visitantes florais","Visitantes florais","#D55E00","Dalopius sp.","#0000FF",NA,"originai!AM1","Eixo das colunas e cor dos nomes",NA,1,1,4
+"Dialictus cressoni","Dialictus cressoni","Visitantes florais","Visitantes florais","#D55E00","Dialictus cressoni","#0000FF",NA,"originai!AN1","Eixo das colunas e cor dos nomes",NA,4,8,6
+"Dialictus imitatus","Dialictus imitatus","Visitantes florais","Visitantes florais","#D55E00","Dialictus imitatus","#0000FF",NA,"originai!AO1","Eixo das colunas e cor dos nomes",NA,2,2,3
+"Dialictus sp.","Dialictus sp.","Visitantes florais","Visitantes florais","#D55E00","Dialictus sp.","#0000FF",NA,"originai!AP1","Eixo das colunas e cor dos nomes",NA,8,42,6
+"Eclimus harrisi","Eclimus harrisi","Visitantes florais","Visitantes florais","#D55E00","Eclimus harrisi","#0000FF",NA,"originai!AQ1","Eixo das colunas e cor dos nomes",NA,2,4,5
+"Ephemerella sp.","Ephemerella sp.","Visitantes florais","Visitantes florais","#D55E00","Ephemerella sp.","#0000FF",NA,"originai!AR1","Eixo das colunas e cor dos nomes",NA,1,1,7
+"Eremomyioides setosa","Eremomyioides setosa","Visitantes florais","Visitantes florais","#D55E00","Eremomyioides setosa","#0000FF",NA,"originai!AS1","Eixo das colunas e cor dos nomes",NA,1,1,6
+"Eudasyphora cyanicolor","Eudasyphora cyanicolor","Visitantes florais","Visitantes florais","#D55E00","Eudasyphora cyanicolor","#0000FF",NA,"originai!AT1","Eixo das colunas e cor dos nomes",NA,1,1,4
+"Eupyses vestris","Eupyses vestris","Visitantes florais","Visitantes florais","#D55E00","Eupyses vestris","#0000FF",NA,"originai!AU1","Eixo das colunas e cor dos nomes",NA,1,1,5
+"Eusphalerum convexum","Eusphalerum convexum","Visitantes florais","Visitantes florais","#D55E00","Eusphalerum convexum","#0000FF",NA,"originai!AV1","Eixo das colunas e cor dos nomes",NA,2,8,1
+"Eusphalerum phothos","Eusphalerum phothos","Visitantes florais","Visitantes florais","#D55E00","Eusphalerum phothos","#0000FF",NA,"originai!AW1","Eixo das colunas e cor dos nomes",NA,3,14,1
+"Eusphalerum sp.","Eusphalerum sp.","Visitantes florais","Visitantes florais","#D55E00","Eusphalerum sp.","#0000FF",NA,"originai!AX1","Eixo das colunas e cor dos nomes",NA,5,104,1
+"Evodinus monticola","Evodinus monticola","Visitantes florais","Visitantes florais","#D55E00","Evodinus monticola","#0000FF",NA,"originai!AY1","Eixo das colunas e cor dos nomes",NA,1,1,4
+"Evylaeus divergens","Evylaeus divergens","Visitantes florais","Visitantes florais","#D55E00","Evylaeus divergens","#0000FF",NA,"originai!AZ1","Eixo das colunas e cor dos nomes",NA,2,2,6
+"Evylaeus quebecensis","Evylaeus quebecensis","Visitantes florais","Visitantes florais","#D55E00","Evylaeus quebecensis","#0000FF",NA,"originai!BA1","Eixo das colunas e cor dos nomes",NA,4,12,4
+"Fannia ungulata","Fannia ungulata","Visitantes florais","Visitantes florais","#D55E00","Fannia ungulata","#0000FF",NA,"originai!BB1","Eixo das colunas e cor dos nomes",NA,1,2,5
+"Halictus confusus","Halictus confusus","Visitantes florais","Visitantes florais","#D55E00","Halictus confusus","#0000FF",NA,"originai!BC1","Eixo das colunas e cor dos nomes",NA,1,1,4
+"Halictus rubicundus","Halictus rubicundus","Visitantes florais","Visitantes florais","#D55E00","Halictus rubicundus","#0000FF",NA,"originai!BD1","Eixo das colunas e cor dos nomes",NA,2,2,6
+"Hoplitis producta","Hoplitis producta","Visitantes florais","Visitantes florais","#D55E00","Hoplitis producta","#0000FF",NA,"originai!BE1","Eixo das colunas e cor dos nomes",NA,1,1,8
+"Hylaeus basalis","Hylaeus basalis","Visitantes florais","Visitantes florais","#D55E00","Hylaeus basalis","#0000FF",NA,"originai!BF1","Eixo das colunas e cor dos nomes",NA,1,1,4
+"Hylaeus ellipticus","Hylaeus ellipticus","Visitantes florais","Visitantes florais","#D55E00","Hylaeus ellipticus","#0000FF",NA,"originai!BG1","Eixo das colunas e cor dos nomes",NA,1,5,5
+"Hylaeus stevensi","Hylaeus stevensi","Visitantes florais","Visitantes florais","#D55E00","Hylaeus stevensi","#0000FF",NA,"originai!BH1","Eixo das colunas e cor dos nomes",NA,1,1,5
+"Judolia montivagans","Judolia montivagans","Visitantes florais","Visitantes florais","#D55E00","Judolia montivagans","#0000FF",NA,"originai!BI1","Eixo das colunas e cor dos nomes",NA,1,1,4
+"Lygus refidorsus","Lygus refidorsus","Visitantes florais","Visitantes florais","#D55E00","Lygus refidorsus","#0000FF",NA,"originai!BJ1","Eixo das colunas e cor dos nomes",NA,1,1,4
+"Mallota posticata","Mallota posticata","Visitantes florais","Visitantes florais","#D55E00","Mallota posticata","#0000FF",NA,"originai!BK1","Eixo das colunas e cor dos nomes",NA,2,2,1
+"Melagyna lasiophthalma","Melagyna lasiophthalma","Visitantes florais","Visitantes florais","#D55E00","Melagyna lasiophthalma","#0000FF",NA,"originai!BL1","Eixo das colunas e cor dos nomes",NA,2,2,5
+"Melanostoma sp.","Melanostoma sp.","Visitantes florais","Visitantes florais","#D55E00","Melanostoma sp.","#0000FF",NA,"originai!BM1","Eixo das colunas e cor dos nomes",NA,1,2,1
+"Nomada cuneata","Nomada cuneata","Visitantes florais","Visitantes florais","#D55E00","Nomada cuneata","#0000FF",NA,"originai!BN1","Eixo das colunas e cor dos nomes",NA,1,1,6
+"Nomada sayi","Nomada sayi","Visitantes florais","Visitantes florais","#D55E00","Nomada sayi","#0000FF",NA,"originai!BO1","Eixo das colunas e cor dos nomes",NA,1,1,4
+"Orsodacne atra","Orsodacne atra","Visitantes florais","Visitantes florais","#D55E00","Orsodacne atra","#0000FF",NA,"originai!BP1","Eixo das colunas e cor dos nomes",NA,1,1,4
+"Orthoneura pulchella","Orthoneura pulchella","Visitantes florais","Visitantes florais","#D55E00","Orthoneura pulchella","#0000FF",NA,"originai!BQ1","Eixo das colunas e cor dos nomes",NA,2,3,4
+"Osmia lignaria","Osmia lignaria","Visitantes florais","Visitantes florais","#D55E00","Osmia lignaria","#0000FF",NA,"originai!BR1","Eixo das colunas e cor dos nomes",NA,1,1,3
+"Osmia proxima","Osmia proxima","Visitantes florais","Visitantes florais","#D55E00","Osmia proxima","#0000FF",NA,"originai!BS1","Eixo das colunas e cor dos nomes",NA,2,3,4
+"Osmia pumila","Osmia pumila","Visitantes florais","Visitantes florais","#D55E00","Osmia pumila","#0000FF",NA,"originai!BT1","Eixo das colunas e cor dos nomes",NA,1,1,5
+"Paramyia nitens","Paramyia nitens","Visitantes florais","Visitantes florais","#D55E00","Paramyia nitens","#0000FF",NA,"originai!BU1","Eixo das colunas e cor dos nomes",NA,2,62,2
+"Parasyrphus relictus","Parasyrphus relictus","Visitantes florais","Visitantes florais","#D55E00","Parasyrphus relictus","#0000FF",NA,"originai!BV1","Eixo das colunas e cor dos nomes",NA,3,50,6
+"Passaloecus sp.","Passaloecus sp.","Visitantes florais","Visitantes florais","#D55E00","Passaloecus sp.","#0000FF",NA,"originai!BW1","Eixo das colunas e cor dos nomes",NA,1,1,5
+"Pegohylemyia fugax","Pegohylemyia fugax","Visitantes florais","Visitantes florais","#D55E00","Pegohylemyia fugax","#0000FF",NA,"originai!BX1","Eixo das colunas e cor dos nomes",NA,1,1,6
+"Phalaenophana pyramusalis","Phalaenophana pyramusalis","Visitantes florais","Visitantes florais","#D55E00","Phalaenophana pyramusalis","#0000FF",NA,"originai!BY1","Eixo das colunas e cor dos nomes",NA,1,1,6
+"Phaonia serva","Phaonia serva","Visitantes florais","Visitantes florais","#D55E00","Phaonia serva","#0000FF",NA,"originai!BZ1","Eixo das colunas e cor dos nomes",NA,2,3,5
+"Pidonia ruficolis","Pidonia ruficolis","Visitantes florais","Visitantes florais","#D55E00","Pidonia ruficolis","#0000FF",NA,"originai!CA1","Eixo das colunas e cor dos nomes",NA,2,9,4
+"Pieris napi","Pieris napi","Visitantes florais","Visitantes florais","#D55E00","Pieris napi","#0000FF",NA,"originai!CB1","Eixo das colunas e cor dos nomes",NA,1,1,4
+"Poanes hobomok","Poanes hobomok","Visitantes florais","Visitantes florais","#D55E00","Poanes hobomok","#0000FF",NA,"originai!CC1","Eixo das colunas e cor dos nomes",NA,1,1,3
+"Psithyrus sp.","Psithyrus sp.","Visitantes florais","Visitantes florais","#D55E00","Psithyrus sp.","#0000FF",NA,"originai!CD1","Eixo das colunas e cor dos nomes",NA,1,1,4
+"Pyrophaena rosarum","Pyrophaena rosarum","Visitantes florais","Visitantes florais","#D55E00","Pyrophaena rosarum","#0000FF",NA,"originai!CE1","Eixo das colunas e cor dos nomes",NA,1,1,5
+"Rhopalum sp.","Rhopalum sp.","Visitantes florais","Visitantes florais","#D55E00","Rhopalum sp.","#0000FF",NA,"originai!CF1","Eixo das colunas e cor dos nomes",NA,1,1,3
+"Sarcophaga nearctica","Sarcophaga nearctica","Visitantes florais","Visitantes florais","#D55E00","Sarcophaga nearctica","#0000FF",NA,"originai!CG1","Eixo das colunas e cor dos nomes",NA,2,2,3
+"Sphaerophoria bifurcata","Sphaerophoria bifurcata","Visitantes florais","Visitantes florais","#D55E00","Sphaerophoria bifurcata","#0000FF",NA,"originai!CH1","Eixo das colunas e cor dos nomes",NA,5,5,5
+"Sphaerophoria longipilosa","Sphaerophoria longipilosa","Visitantes florais","Visitantes florais","#D55E00","Sphaerophoria longipilosa","#0000FF",NA,"originai!CI1","Eixo das colunas e cor dos nomes",NA,1,1,4
+"Sphaerophoria sp.","Sphaerophoria sp.","Visitantes florais","Visitantes florais","#D55E00","Sphaerophoria sp.","#0000FF",NA,"originai!CJ1","Eixo das colunas e cor dos nomes",NA,3,3,3
+"Sphecodes sp.","Sphecodes sp.","Visitantes florais","Visitantes florais","#D55E00","Sphecodes sp.","#0000FF",NA,"originai!CK1","Eixo das colunas e cor dos nomes",NA,1,2,4
+"Syritta pipiens","Syritta pipiens","Visitantes florais","Visitantes florais","#D55E00","Syritta pipiens","#0000FF",NA,"originai!CL1","Eixo das colunas e cor dos nomes",NA,1,1,4
+"Syritta rectus","Syritta rectus","Visitantes florais","Visitantes florais","#D55E00","Syritta rectus","#0000FF",NA,"originai!CM1","Eixo das colunas e cor dos nomes",NA,1,1,4
+"Temnostoma alternans","Temnostoma alternans","Visitantes florais","Visitantes florais","#D55E00","Temnostoma alternans","#0000FF",NA,"originai!CN1","Eixo das colunas e cor dos nomes",NA,1,1,4
+"Temnostoma balyras","Temnostoma balyras","Visitantes florais","Visitantes florais","#D55E00","Temnostoma balyras","#0000FF",NA,"originai!CO1","Eixo das colunas e cor dos nomes",NA,1,3,4
+"Temnostoma barberi","Temnostoma barberi","Visitantes florais","Visitantes florais","#D55E00","Temnostoma barberi","#0000FF",NA,"originai!CP1","Eixo das colunas e cor dos nomes",NA,1,2,4
+"Thamnotettix confinis","Thamnotettix confinis","Visitantes florais","Visitantes florais","#D55E00","Thamnotettix confinis","#0000FF",NA,"originai!CQ1","Eixo das colunas e cor dos nomes",NA,1,1,6
+"Trachysida aspera","Trachysida aspera","Visitantes florais","Visitantes florais","#D55E00","Trachysida aspera","#0000FF",NA,"originai!CR1","Eixo das colunas e cor dos nomes",NA,1,1,1
+"Tropidia quadrata","Tropidia quadrata","Visitantes florais","Visitantes florais","#D55E00","Tropidia quadrata","#0000FF",NA,"originai!CS1","Eixo das colunas e cor dos nomes",NA,2,4,6
+"Tychius stephensi","Tychius stephensi","Visitantes florais","Visitantes florais","#D55E00","Tychius stephensi","#0000FF",NA,"originai!CT1","Eixo das colunas e cor dos nomes",NA,1,3,4
+"Vespula arenaria","Vespula arenaria","Visitantes florais","Visitantes florais","#D55E00","Vespula arenaria","#0000FF",NA,"originai!CU1","Eixo das colunas e cor dos nomes",NA,1,1,8
+"Xylota bigelowi","Xylota bigelowi","Visitantes florais","Visitantes florais","#D55E00","Xylota bigelowi","#0000FF",NA,"originai!CV1","Eixo das colunas e cor dos nomes",NA,1,10,4
+"Xylota hinei","Xylota hinei","Visitantes florais","Visitantes florais","#D55E00","Xylota hinei","#0000FF",NA,"originai!CW1","Eixo das colunas e cor dos nomes",NA,2,3,4
+"Xylota sp.","Xylota sp.","Visitantes florais","Visitantes florais","#D55E00","Xylota sp.","#0000FF",NA,"originai!CX1","Eixo das colunas e cor dos nomes",NA,1,1,4
+"Zeraea americana","Zeraea americana","Visitantes florais","Visitantes florais","#D55E00","Zeraea americana","#0000FF",NA,"originai!CY1","Eixo das colunas e cor dos nomes",NA,2,2,5

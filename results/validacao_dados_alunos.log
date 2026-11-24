@@ -1,0 +1,25 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+[1] "Portuguese_Brazil.utf8"
+
+Attaching package: 'igraph'
+
+The following objects are masked from 'package:stats':
+
+    decompose, spectrum
+
+The following object is masked from 'package:base':
+
+    union
+
+Warning message:
+package 'ggplot2' was built under R version 4.5.3 
+Gerando 199 redes por modelo (contagem)...
+swap.web: 100/199
+Concluído. Figuras em C:\Users\LUCASC~1\AppData\Local\Packages\SANDBO~1.{28\AC\Temp\RtmpwHUhhw/aluno_figuras; tabelas em C:\Users\LUCASC~1\AppData\Local\Packages\SANDBO~1.{28\AC\Temp\RtmpwHUhhw/aluno_resultados.
+null device 
+          1 
+VALIDADO: linhas 40 em diante executadas integralmente, com 199 simulações e dados novos de 4 x 5; sem objeto rede ou catálogo; categorias novas; tabelas e figuras exportadas.

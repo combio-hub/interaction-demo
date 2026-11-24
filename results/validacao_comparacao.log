@@ -1,0 +1,31 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+[1] "Portuguese_Brazil.utf8"
+
+Attaching package: 'igraph'
+
+The following objects are masked from 'package:stats':
+
+    decompose, spectrum
+
+The following object is masked from 'package:base':
+
+    union
+
+Warning message:
+package 'ggplot2' was built under R version 4.5.3 
+Documentação conferida: 22 funções públicas, com todos os argumentos, retorno e exemplos.
+null device 
+          1 
+         rede      titulo     tipo linhas colunas nos ligacoes conectancia
+1 polinizacao Polinização contagem     12     102 114      167   0.1364379
+2   dispersao   Dispersão contagem     87      18 105      236   0.1507024
+3  herbivoria  Herbivoria  binaria     54      24  78      173   0.1334877
+      NODF         Q ligacoes_por_especie        H2
+1 30.78467 0.5673240             1.464912 0.5780733
+2 30.00766 0.4509290             2.247619 0.4234922
+3 31.16992 0.4021685             2.217949 0.0000000
+VALIDADO: métricas iguais às análises originais; todos os nós e arestas mantidos; PNG, TIFF, PDF e CSV exportados.

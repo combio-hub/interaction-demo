@@ -1,0 +1,179 @@
+AULA PRÁTICA DE REDES DE INTERAÇÕES ECOLÓGICAS
+
+Abra interactions_ufpa.Rproj no RStudio. O roteiro completo da aula é
+01. aula_pratica.R: execute as seções com Ctrl+Enter, lendo as perguntas antes
+dos resultados. Não depende de scripts antigos nem de objetos salvos na sessão.
+
+SCRIPTS
+00. setup.R: pacotes, funções, validações, modelos nulos e exportações.
+Cada função tem documentação em PT-BR no formato roxygen2: descrição, argumentos,
+retorno, detalhes e exemplos. Os auxiliares locais também têm seus argumentos documentados.
+Os blocos #' são comentários de consulta; não é necessário instalar roxygen2.
+01. aula_pratica.R: a aula completa, sem definições de funções, ifs ou loops.
+02. demonstracao_nulos.R: complemento visual solicitado; gera uma apresentação
+interativa em HTML, com controles para reproduzir, pausar, avançar e reiniciar.
+03. comparacao_redes.R: compara as três redes lado a lado, com métricas observadas.
+Gera duas versões: cores por categoria biológica e cores pelos módulos de Louvain.
+O projeto possui os dois scripts da aula e dois complementos independentes.
+Os materiais da versão anterior estão arquivados em historico/ e não são
+necessários para a aula. O ZIP de distribuição inclui somente a versão atual.
+
+COMO USAR
+1. Execute 00. setup.R antes da primeira aula. Internet é necessária somente
+   para instalar pacotes ausentes; ggsankey é instalado do repositório do autor.
+2. No roteiro principal, escolha rede = "polinizacao", "dispersao" ou "herbivoria".
+3. Execute o roteiro. B define o número de redes nulas por modelo.
+   O roteiro está configurado com B = 199 para aula; use 999 para maior resolução.
+4. Para a demonstração visual, execute 02. demonstracao_nulos.R. Também basta
+   trocar o nome da rede. Os HTMLs já gerados abrem sem internet no navegador.
+5. Para comparar as redes, execute 03. comparacao_redes.R. Ele lê os três CSVs e
+   recalcula as métricas; não depende de resultados anteriores ou de modelos nulos.
+
+COMPARAÇÃO DAS TRÊS REDES
+O script 03 mostra polinização, dispersão e herbivoria em uma única linha.
+Cada painel traz conectância, NODF binário, Q ponderado, L/S e H2' observados,
+arredondados a três casas decimais. A tabela CSV mantém a precisão dos cálculos.
+A legenda de categorias e a escala da área dos nós (grau) são comuns aos painéis.
+As espessuras representam pesos relativos dentro de cada rede; as unidades das
+planilhas diferem e não devem ser comparadas como se fossem a mesma frequência.
+H2' na matriz binária é descritivo. Não há testes, p-valores ou SES nessa figura.
+Os nomes são coloridos por categoria, em itálico, com linhas-guia tracejadas.
+n_rotulos controla o máximo de nomes por painel; min_rotulo define o peso mínimo.
+Altere os caminhos, tipos e títulos para comparar outras matrizes no mesmo formato.
+As funções comparar_redes() e salvar_comparacao() ficam documentadas no setup.
+Saídas: figures/comparacao/comparacao_redes.png, .tiff (600 dpi) e .pdf;
+results/comparacao/comparacao_redes.csv, para leitura com read.csv2().
+O pacote ggpubr organiza os painéis com legenda comum e é carregado pelo setup.
+O script principal 01 permanece independente de rede depois da linha 39.
+
+VERSÃO POR MÓDULOS
+As seções 6–7 do script 03 reutilizam a comparação anterior e as partições que
+produziram os valores de Q. Não repetem o Louvain nem mudam as posições dos nós.
+Os nomes selecionados, as métricas, todos os nós e todas as ligações são mantidos.
+Os nós e nomes recebem a cor do módulo. Áreas translúcidas são desenhadas atrás
+das ligações e nós; os contornos incluem também módulos com um ou dois nós.
+cores_modulos altera a paleta com nomes M1, M2 etc.; mostrar_poligonos = FALSE
+remove as áreas; alpha_poligonos controla a transparência e margem_poligonos,
+a folga dos contornos. Essas opções estão documentadas no setup.
+Números e cores identificam módulos somente dentro de cada rede. M1 em uma rede
+não equivale a M1 em outra. Polígonos podem se sobrepor ou conter nós de outros
+módulos; a cor do nó identifica seu pertencimento. As áreas não têm significado
+geográfico e não representam intervalos de confiança ou fronteiras ecológicas.
+Saídas adicionais: figures/comparacao/comparacao_modulos.png, .tiff e .pdf;
+results/comparacao/comparacao_modulos.csv (read.csv2), com número de módulos;
+results/comparacao/comparacao_modulos_especies_modulos.csv (read.csv), com a
+identificação do módulo, categoria original, cor, grau e força de cada espécie.
+comparar_modulos() reutiliza os objetos da primeira comparação. Para um objeto
+antigo sem partições armazenadas, execute novamente o script 03 desde o início.
+
+DADOS DOS ALUNOS
+Somente as linhas 1–39 do script principal selecionam e importam os exemplos.
+A partir da linha 40, não há referência ao objeto rede nem leitura de redes.csv.
+Para uma matriz da turma, substitua o bloco de entrada por matriz, categorias,
+info, pasta_resultados e pasta_figuras. Há exemplos comentados nas linhas 22–26.
+matriz: matriz numérica não negativa, com nomes únicos nas linhas e colunas,
+sem linhas/colunas vazias. categorias: colunas id, especie, guilda, grupo e cor.
+id deve corresponder aos nomes da matriz; cor é hexadecimal e consistente por grupo.
+info deve conter tipo = "contagem" ou "binaria"; os demais campos documentam os dados.
+Os nomes das guildas e as cores vêm de categorias; não precisam coincidir com os exemplos.
+As pastas são definidas na importação e passadas explicitamente às exportações.
+Use salvar_grafo_ggplot(figura, pasta = pasta_figuras) para salvar o grafo.
+
+ENTRADAS
+data/ contém três matrizes CSV e três tabelas de categorias prontas para o R.
+redes.csv documenta as unidades e fontes. O detalhamento está em data/LEIA-ME.txt.
+Os arquivos XLS originais válidos permanecem na raiz. A planilha de cacau está
+fora da aula. O arquivo corrompido de ectoparasitismo foi removido a pedido.
+Dispersão: as cores de aves e morcegos foram conferidas contra a legenda e a
+aba propriedades. Não se devem confundir essas categorias com módulos da rede.
+
+RESULTADOS
+results/<rede>/metricas.csv: as cinco métricas observadas.
+results/<rede>/testes.csv: apenas comparações com distribuição nula variável.
+results/<rede>/especies_modulos.csv: categorias, grau, força e módulo dos nós.
+results/<rede>/distribuicoes_nulas.csv: valores obtidos nas simulações.
+results/<rede>/analise.rds: matrizes nulas, parâmetros, entrada e resultados.
+figures/<rede>/: Sankey em PNG/TIFF, histogramas e demonstração HTML.
+grafo_livre.png/.tiff: rede com layout Fruchterman–Reingold do igraph e ggplot2.
+A área dos nós representa o grau, e a espessura das arestas varia com o peso.
+Os nós ficam distribuídos pelo plano; as cores preservam as categorias originais.
+O grafo livre é o padrão do roteiro. O Sankey continua disponível para comparação.
+Use curvatura = 0 para linhas retas ou curvatura = 0.12 para curvas suaves.
+Por padrão, o layout usa atração igual nas ligações; ponderar_layout = TRUE usa
+os pesos para aproximar mais os pares de maior peso. As métricas não são alteradas.
+min_rotulo define a soma mínima dos pesos; n_rotulos define o máximo de nomes.
+Entre os elegíveis, são priorizados os maiores totais; empates seguem a ordem dos dados.
+Use min_rotulo = 0 para selecionar apenas pela quantidade; n_rotulos = Inf para
+todos os elegíveis ou 0 para nenhum. Todas as espécies e interações são mantidas.
+Os rótulos do grafo livre são reposicionados com ggrepel para reduzir sobreposições.
+Por padrão, posicao_rotulos = "proxima" mantém os nomes próximos de seus nós,
+com atração positiva e repulsão local. As posições dos nós não são modificadas.
+Aumentar atracao_rotulos aproxima os nomes; aumentar repulsao_rotulos abre espaço.
+O ajuste equilibra esses objetivos; muitas legendas podem exigir uma figura maior.
+Essas linhas são tracejadas (dashed) e guiam a leitura; cor_guias altera sua cor.
+posicao_rotulos = "externa" continua disponível para colocar os nomes nas margens.
+As distâncias são gráficas, não geográficas. A estrutura permanece bipartida,
+pois os dados registram interações planta–animal, mesmo sem duas colunas no desenho.
+grafo_bipartido.png/.tiff mostram a comparação; a disposição em duas colunas
+permanece disponível com disposicao = "bipartido" e nome = "grafo_bipartido" ao salvar.
+As tabelas de resultados usam ponto e vírgula e vírgula decimal (read.csv2).
+Os CSVs de entrada e de espécies/arestas usam vírgula separadora (read.csv).
+
+PERSONALIZAR AS FIGURAS
+Na seção 4 do roteiro, edite cores_grupos, cor_ligacoes e cor_texto.
+As funções desenhar_grafo_ggplot() e desenhar_rede() aceitam cores como vetor
+nomeado por categorias$grupo, por exemplo: cores = c(Plantas = "#009E73").
+É possível mudar uma única categoria: as outras mantêm suas cores originais.
+Uma paleta com categorias das três redes também funciona; grupos ausentes são ignorados.
+O argumento cores = NULL mantém as cores dos CSVs. Aceita nomes do R ou hexadecimais.
+No grafo, cor_arestas controla as ligações, cor_borda os contornos dos nós,
+cor_texto os títulos/legendas e cor_guias as linhas que ligam os rótulos aos nós.
+Os nomes das espécies recebem automaticamente a mesma cor de sua categoria.
+No Sankey, cor_fluxos = NULL acompanha as categorias; uma cor fixa uniformiza
+as faixas. cor_borda controla os contornos; cor_texto controla títulos/legendas.
+Os nomes das espécies ficam em itálico no grafo, no Sankey e na demonstração HTML.
+Títulos, guildas e legendas das categorias não recebem itálico.
+Nos histogramas, desenhar_testes() aceita cores nomeadas por swap.web, r2dtable
+e quasiswap; cor_observado muda a linha vertical, cor_borda o contorno das barras
+e cor_texto os textos. A seção 10 do roteiro contém o exemplo editável.
+criar_demonstracao() também aceita cores, n_rotulos e min_rotulo.
+Depois de editar as opções, execute novamente a chamada de plotagem e a exportação.
+
+MODELOS NULOS
+Contagens: swap.web para NODF, modularidade e H2'; r2dtable para conectância e L/S.
+Binária: quasiswap para NODF e modularidade. Não se aplica r2dtable a 0/1 para
+evitar tratar presença como frequência. C, L/S e H2' ficam constantes sob graus
+fixos e pesos unitários e não são mostrados na tabela de testes da herbivoria.
+H2' observado na rede binária é descritivo, sem interpretação de preferência por
+frequência de consumo. As definições e fórmulas estão no próprio roteiro.
+
+p_bilateral usa duas caudas empíricas com empates e correção +1.
+p_holm ajusta os testes não redundantes: quatro nas contagens, dois na binária,
+quando todas as métricas previstas variam. Conectância e L/S compartilham o ajuste.
+O algoritmo de Louvain usa o mesmo número de buscas no observado e nos nulos.
+Seu Q é a modularidade geral do igraph, não a modularidade específica bipartida.
+swap.web apresenta vieses conhecidos; a conclusão é condicional ao modelo.
+Não há máscara de interações proibidas. Nenhum desses testes identifica uma causa.
+
+DEMONSTRAÇÃO VISUAL
+r2dtable: construção didática com sorteios hipergeométricos condicionais,
+equivalente na distribuição de tabelas; não é a gravação do código C do pacote.
+swap.web: estados reais de uma chamada da função instalada, obtidos por
+instrumentação de uma cópia local. O pacote original não é modificado.
+quasiswap: matrizes completas e independentes; não são passos internos do código C.
+Essas diferenças aparecem explicitamente na apresentação.
+Quadros intermediários de uma trajetória não são réplicas dos testes da aula.
+
+REFERÊNCIAS DIDÁTICAS
+https://mlurgi.github.io/networks_for_r/
+https://fukamilab.github.io/BIO202/09-B-networks.html
+https://search.r-project.org/CRAN/refmans/bipartite/html/swap.web.html
+https://stat.ethz.ch/R-manual/R-devel/library/stats/html/r2dtable.html
+https://vegandevs.github.io/vegan/reference/commsim.html
+https://r.igraph.org/reference/layout_with_fr.html
+https://ggrepel.slowkow.com/reference/geom_text_repel.html
+https://ggrepel.slowkow.com/reference/position_nudge_repel.html
+https://ggplot2.tidyverse.org/reference/geom_segment.html
+
+Todos os scripts usam UTF-8. Se o terminal do Windows emitir erro de codificação,
+execute Sys.setlocale("LC_CTYPE", "Portuguese_Brazil.utf8") antes de source().

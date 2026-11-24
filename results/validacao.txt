@@ -1,0 +1,29 @@
+VALIDAÇÃO DA AULA — 02/11/2026
+
+Os três exemplos foram executados integralmente com 999 matrizes por modelo
+e 10 inícios de Louvain para o observado e cada rede nula avaliada por Q.
+As cinco métricas do roteiro coincidem com as funções usadas nas simulações.
+
+Polinização: 12 x 102; 167 pares; soma 550. Categorias: 12 plantas, 102 visitantes.
+Dispersão: 87 x 18; 236 pares; soma 1177. Categorias: 87 plantas, 7 aves, 11 morcegos.
+Herbivoria: 54 x 24; 173 pares; matriz binária.
+
+Cada célula dos três CSVs foi comparada à leitura independente do XLS com readxl.
+As categorias de aves/morcegos foram cruzadas entre as cores e a aba propriedades.
+O Sankey foi verificado quanto a número de nós, número de pares e soma de cada nó.
+As figuras foram inspecionadas; os nomes permanecem nos centros verticais dos nós.
+
+As redes nulas preservam os totais de linhas e colunas. swap.web também preserva
+o número de pares na saída. quasiswap preserva ainda os valores 0/1.
+A tabela de testes contém somente métricas com desvio-padrão nulo positivo.
+Conectância e L/S compartilham o mesmo p e SES e entram uma vez no ajuste de Holm.
+
+A instrumentação de swap.web produziu a mesma matriz da função não instrumentada,
+com a mesma semente, em polinização (52 estados) e dispersão (88 estados).
+A construção condicional demonstrativa preservou as margens ao terminar.
+A demonstração binária contém 20 matrizes completas geradas por quasiswap.
+Os controles das três apresentações HTML foram testados no navegador:
+seleção de modelo, grafo/matriz, avanço, reinício, reprodução, pausa e barra de etapas.
+
+Ambiente: R 4.5.0. Versões dos pacotes estão nos sessionInfo.txt de cada rede.
+O aviso de ggplot2 compilado em R 4.5.3 não impediu a execução ou a renderização.

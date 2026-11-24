@@ -1,0 +1,4 @@
+"rede","arquivo","aba","intervalo","tipo","animal","titulo","unidade","referencia","nota"
+"polinizacao","polinizacao1.xls","originai","A1:CY13","contagem","Visitantes florais","Rede planta–visitante floral","Indivíduos visitantes coletados","Barrett e Helenurm (1987)","Visitação não comprova polinização efetiva."
+"dispersao","dispersao1.xls","dados","A1:S88","contagem","Frugívoros","Rede planta–frugívoro","Amostras fecais com sementes do táxon","Gorchov et al. (1995)","Duas linhas Araceae 1 mantidas distintas; identidade taxonômica pendente. Uma amostra fecal pode conter mais de um táxon."
+"herbivoria","herbivoria.xls","original(marathon)","A1:Y55","binaria","Herbívoros","Rede planta–herbívoro","Presença ou ausência de consumo","Joern (1979)","Marathon; matriz binária sem frequência de consumo."

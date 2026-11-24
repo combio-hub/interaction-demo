@@ -1,0 +1,22 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+[1] "Portuguese_Brazil.utf8"
+
+Attaching package: 'igraph'
+
+The following objects are masked from 'package:stats':
+
+    decompose, spectrum
+
+The following object is masked from 'package:base':
+
+    union
+
+Warning message:
+package 'ggplot2' was built under R version 4.5.3 
+OK: polinizacao - nós= 114 - arestas= 167 - layout livre, curvas e linhas retas; rótulos consideram o tamanho dos nós.
+OK: dispersao - nós= 105 - arestas= 236 - layout livre, curvas e linhas retas; rótulos consideram o tamanho dos nós.
+OK: herbivoria - nós= 78 - arestas= 173 - layout livre, curvas e linhas retas; rótulos consideram o tamanho dos nós.

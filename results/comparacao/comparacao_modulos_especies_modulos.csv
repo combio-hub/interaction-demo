@@ -1,0 +1,298 @@
+"rede","id","especie","guilda","categoria","modulo","cor_modulo","grau","soma_interacoes"
+"polinizacao","Aralia nudicaulis","Aralia nudicaulis","Plantas","Plantas",1,"#E16A86",17,66
+"polinizacao","Chimaphila umbellata","Chimaphila umbellata","Plantas","Plantas",2,"#C7821C",3,70
+"polinizacao","Clintonia borealis","Clintonia borealis","Plantas","Plantas",3,"#909800",15,24
+"polinizacao","Cornus canadensis","Cornus canadensis","Plantas","Plantas",4,"#00A846",65,167
+"polinizacao","Cypripedium acaule","Cypripedium acaule","Plantas","Plantas",1,"#E16A86",2,8
+"polinizacao","Linnaea borealis","Linnaea borealis","Plantas","Plantas",5,"#00AD9A",21,37
+"polinizacao","Maianthemum canadense","Maianthemum canadense","Plantas","Plantas",6,"#00A2D3",26,85
+"polinizacao","Medeola virginiana","Medeola virginiana","Plantas","Plantas",7,"#9183E6",1,1
+"polinizacao","Oxalis montana","Oxalis montana","Plantas","Plantas",1,"#E16A86",6,81
+"polinizacao","Pyrola secunda","Pyrola secunda","Plantas","Plantas",8,"#D766C9",4,4
+"polinizacao","Trientalis borealis","Trientalis borealis","Plantas","Plantas",5,"#00AD9A",3,3
+"polinizacao","Trillium undulatum","Trillium undulatum","Plantas","Plantas",5,"#00AD9A",4,4
+"polinizacao","Acmaeopsoides rufula","Acmaeopsoides rufula","Visitantes florais","Visitantes florais",4,"#00A846",1,1
+"polinizacao","Agiotes stabilis","Agiotes stabilis","Visitantes florais","Visitantes florais",6,"#00A2D3",1,2
+"polinizacao","Ancistrocerus sp.","Ancistrocerus sp.","Visitantes florais","Visitantes florais",4,"#00A846",1,2
+"polinizacao","Andrena melanochroa","Andrena melanochroa","Visitantes florais","Visitantes florais",4,"#00A846",1,3
+"polinizacao","Andrena miranda","Andrena miranda","Visitantes florais","Visitantes florais",4,"#00A846",2,3
+"polinizacao","Andrena nivalis","Andrena nivalis","Visitantes florais","Visitantes florais",6,"#00A2D3",2,2
+"polinizacao","Andrena rufosignata","Andrena rufosignata","Visitantes florais","Visitantes florais",4,"#00A846",1,2
+"polinizacao","Andrena sigmundi","Andrena sigmundi","Visitantes florais","Visitantes florais",4,"#00A846",1,1
+"polinizacao","Andrena thaspii","Andrena thaspii","Visitantes florais","Visitantes florais",4,"#00A846",1,1
+"polinizacao","Andrena wheeleri","Andrena wheeleri","Visitantes florais","Visitantes florais",1,"#E16A86",1,1
+"polinizacao","Andrena wilkella","Andrena wilkella","Visitantes florais","Visitantes florais",3,"#909800",1,1
+"polinizacao","Andrena w-scripta","Andrena w-scripta","Visitantes florais","Visitantes florais",4,"#00A846",2,8
+"polinizacao","Anthaxia expansa","Anthaxia expansa","Visitantes florais","Visitantes florais",4,"#00A846",2,4
+"polinizacao","Anthonomus sp.","Anthonomus sp.","Visitantes florais","Visitantes florais",4,"#00A846",1,1
+"polinizacao","Blera badia","Blera badia","Visitantes florais","Visitantes florais",4,"#00A846",1,1
+"polinizacao","Blera confusa","Blera confusa","Visitantes florais","Visitantes florais",4,"#00A846",1,10
+"polinizacao","Blera nigripes","Blera nigripes","Visitantes florais","Visitantes florais",4,"#00A846",1,1
+"polinizacao","Bombus perplexus","Bombus perplexus","Visitantes florais","Visitantes florais",1,"#E16A86",2,5
+"polinizacao","Bombus ternarius","Bombus ternarius","Visitantes florais","Visitantes florais",3,"#909800",2,3
+"polinizacao","Bombus terricola","Bombus terricola","Visitantes florais","Visitantes florais",3,"#909800",4,13
+"polinizacao","Bombus vagans","Bombus vagans","Visitantes florais","Visitantes florais",4,"#00A846",8,41
+"polinizacao","Bombylius major","Bombylius major","Visitantes florais","Visitantes florais",4,"#00A846",2,7
+"polinizacao","Bombylius pigmaeus","Bombylius pigmaeus","Visitantes florais","Visitantes florais",6,"#00A2D3",1,1
+"polinizacao","Cantharis sp.","Cantharis sp.","Visitantes florais","Visitantes florais",4,"#00A846",1,1
+"polinizacao","Carposcalis confusus","Carposcalis confusus","Visitantes florais","Visitantes florais",5,"#00AD9A",5,5
+"polinizacao","Carposcalis obscura","Carposcalis obscura","Visitantes florais","Visitantes florais",5,"#00AD9A",1,1
+"polinizacao","Cateres pennatus","Cateres pennatus","Visitantes florais","Visitantes florais",1,"#E16A86",1,1
+"polinizacao","Celastrina argiolus","Celastrina argiolus","Visitantes florais","Visitantes florais",4,"#00A846",1,2
+"polinizacao","Chalcosyrphus curvarius","Chalcosyrphus curvarius","Visitantes florais","Visitantes florais",4,"#00A846",1,1
+"polinizacao","Chalcosyrphus inarmatus","Chalcosyrphus inarmatus","Visitantes florais","Visitantes florais",4,"#00A846",1,1
+"polinizacao","Chalcosyrphus memorum","Chalcosyrphus memorum","Visitantes florais","Visitantes florais",4,"#00A846",1,1
+"polinizacao","Chalcosyrphus nigra","Chalcosyrphus nigra","Visitantes florais","Visitantes florais",4,"#00A846",1,2
+"polinizacao","Cheilosia pallipes","Cheilosia pallipes","Visitantes florais","Visitantes florais",1,"#E16A86",1,2
+"polinizacao","Cheilosia sialia","Cheilosia sialia","Visitantes florais","Visitantes florais",4,"#00A846",1,2
+"polinizacao","Cheilosia slossonae","Cheilosia slossonae","Visitantes florais","Visitantes florais",6,"#00A2D3",1,1
+"polinizacao","Cheilosia tristis","Cheilosia tristis","Visitantes florais","Visitantes florais",1,"#E16A86",1,1
+"polinizacao","Crabro sp.","Crabro sp.","Visitantes florais","Visitantes florais",5,"#00AD9A",2,2
+"polinizacao","Dalopius sp.","Dalopius sp.","Visitantes florais","Visitantes florais",4,"#00A846",1,1
+"polinizacao","Dialictus cressoni","Dialictus cressoni","Visitantes florais","Visitantes florais",6,"#00A2D3",4,8
+"polinizacao","Dialictus imitatus","Dialictus imitatus","Visitantes florais","Visitantes florais",3,"#909800",2,2
+"polinizacao","Dialictus sp.","Dialictus sp.","Visitantes florais","Visitantes florais",6,"#00A2D3",8,42
+"polinizacao","Eclimus harrisi","Eclimus harrisi","Visitantes florais","Visitantes florais",5,"#00AD9A",2,4
+"polinizacao","Ephemerella sp.","Ephemerella sp.","Visitantes florais","Visitantes florais",7,"#9183E6",1,1
+"polinizacao","Eremomyioides setosa","Eremomyioides setosa","Visitantes florais","Visitantes florais",6,"#00A2D3",1,1
+"polinizacao","Eudasyphora cyanicolor","Eudasyphora cyanicolor","Visitantes florais","Visitantes florais",4,"#00A846",1,1
+"polinizacao","Eupyses vestris","Eupyses vestris","Visitantes florais","Visitantes florais",5,"#00AD9A",1,1
+"polinizacao","Eusphalerum convexum","Eusphalerum convexum","Visitantes florais","Visitantes florais",1,"#E16A86",2,8
+"polinizacao","Eusphalerum phothos","Eusphalerum phothos","Visitantes florais","Visitantes florais",1,"#E16A86",3,14
+"polinizacao","Eusphalerum sp.","Eusphalerum sp.","Visitantes florais","Visitantes florais",1,"#E16A86",5,104
+"polinizacao","Evodinus monticola","Evodinus monticola","Visitantes florais","Visitantes florais",4,"#00A846",1,1
+"polinizacao","Evylaeus divergens","Evylaeus divergens","Visitantes florais","Visitantes florais",6,"#00A2D3",2,2
+"polinizacao","Evylaeus quebecensis","Evylaeus quebecensis","Visitantes florais","Visitantes florais",4,"#00A846",4,12
+"polinizacao","Fannia ungulata","Fannia ungulata","Visitantes florais","Visitantes florais",5,"#00AD9A",1,2
+"polinizacao","Halictus confusus","Halictus confusus","Visitantes florais","Visitantes florais",4,"#00A846",1,1
+"polinizacao","Halictus rubicundus","Halictus rubicundus","Visitantes florais","Visitantes florais",6,"#00A2D3",2,2
+"polinizacao","Hoplitis producta","Hoplitis producta","Visitantes florais","Visitantes florais",8,"#D766C9",1,1
+"polinizacao","Hylaeus basalis","Hylaeus basalis","Visitantes florais","Visitantes florais",4,"#00A846",1,1
+"polinizacao","Hylaeus ellipticus","Hylaeus ellipticus","Visitantes florais","Visitantes florais",5,"#00AD9A",1,5
+"polinizacao","Hylaeus stevensi","Hylaeus stevensi","Visitantes florais","Visitantes florais",5,"#00AD9A",1,1
+"polinizacao","Judolia montivagans","Judolia montivagans","Visitantes florais","Visitantes florais",4,"#00A846",1,1
+"polinizacao","Lygus refidorsus","Lygus refidorsus","Visitantes florais","Visitantes florais",4,"#00A846",1,1
+"polinizacao","Mallota posticata","Mallota posticata","Visitantes florais","Visitantes florais",1,"#E16A86",2,2
+"polinizacao","Melagyna lasiophthalma","Melagyna lasiophthalma","Visitantes florais","Visitantes florais",5,"#00AD9A",2,2
+"polinizacao","Melanostoma sp.","Melanostoma sp.","Visitantes florais","Visitantes florais",1,"#E16A86",1,2
+"polinizacao","Nomada cuneata","Nomada cuneata","Visitantes florais","Visitantes florais",6,"#00A2D3",1,1
+"polinizacao","Nomada sayi","Nomada sayi","Visitantes florais","Visitantes florais",4,"#00A846",1,1
+"polinizacao","Orsodacne atra","Orsodacne atra","Visitantes florais","Visitantes florais",4,"#00A846",1,1
+"polinizacao","Orthoneura pulchella","Orthoneura pulchella","Visitantes florais","Visitantes florais",4,"#00A846",2,3
+"polinizacao","Osmia lignaria","Osmia lignaria","Visitantes florais","Visitantes florais",3,"#909800",1,1
+"polinizacao","Osmia proxima","Osmia proxima","Visitantes florais","Visitantes florais",4,"#00A846",2,3
+"polinizacao","Osmia pumila","Osmia pumila","Visitantes florais","Visitantes florais",5,"#00AD9A",1,1
+"polinizacao","Paramyia nitens","Paramyia nitens","Visitantes florais","Visitantes florais",2,"#C7821C",2,62
+"polinizacao","Parasyrphus relictus","Parasyrphus relictus","Visitantes florais","Visitantes florais",6,"#00A2D3",3,50
+"polinizacao","Passaloecus sp.","Passaloecus sp.","Visitantes florais","Visitantes florais",5,"#00AD9A",1,1
+"polinizacao","Pegohylemyia fugax","Pegohylemyia fugax","Visitantes florais","Visitantes florais",6,"#00A2D3",1,1
+"polinizacao","Phalaenophana pyramusalis","Phalaenophana pyramusalis","Visitantes florais","Visitantes florais",6,"#00A2D3",1,1
+"polinizacao","Phaonia serva","Phaonia serva","Visitantes florais","Visitantes florais",5,"#00AD9A",2,3
+"polinizacao","Pidonia ruficolis","Pidonia ruficolis","Visitantes florais","Visitantes florais",4,"#00A846",2,9
+"polinizacao","Pieris napi","Pieris napi","Visitantes florais","Visitantes florais",4,"#00A846",1,1
+"polinizacao","Poanes hobomok","Poanes hobomok","Visitantes florais","Visitantes florais",3,"#909800",1,1
+"polinizacao","Psithyrus sp.","Psithyrus sp.","Visitantes florais","Visitantes florais",4,"#00A846",1,1
+"polinizacao","Pyrophaena rosarum","Pyrophaena rosarum","Visitantes florais","Visitantes florais",5,"#00AD9A",1,1
+"polinizacao","Rhopalum sp.","Rhopalum sp.","Visitantes florais","Visitantes florais",3,"#909800",1,1
+"polinizacao","Sarcophaga nearctica","Sarcophaga nearctica","Visitantes florais","Visitantes florais",3,"#909800",2,2
+"polinizacao","Sphaerophoria bifurcata","Sphaerophoria bifurcata","Visitantes florais","Visitantes florais",5,"#00AD9A",5,5
+"polinizacao","Sphaerophoria longipilosa","Sphaerophoria longipilosa","Visitantes florais","Visitantes florais",4,"#00A846",1,1
+"polinizacao","Sphaerophoria sp.","Sphaerophoria sp.","Visitantes florais","Visitantes florais",3,"#909800",3,3
+"polinizacao","Sphecodes sp.","Sphecodes sp.","Visitantes florais","Visitantes florais",4,"#00A846",1,2
+"polinizacao","Syritta pipiens","Syritta pipiens","Visitantes florais","Visitantes florais",4,"#00A846",1,1
+"polinizacao","Syritta rectus","Syritta rectus","Visitantes florais","Visitantes florais",4,"#00A846",1,1
+"polinizacao","Temnostoma alternans","Temnostoma alternans","Visitantes florais","Visitantes florais",4,"#00A846",1,1
+"polinizacao","Temnostoma balyras","Temnostoma balyras","Visitantes florais","Visitantes florais",4,"#00A846",1,3
+"polinizacao","Temnostoma barberi","Temnostoma barberi","Visitantes florais","Visitantes florais",4,"#00A846",1,2
+"polinizacao","Thamnotettix confinis","Thamnotettix confinis","Visitantes florais","Visitantes florais",6,"#00A2D3",1,1
+"polinizacao","Trachysida aspera","Trachysida aspera","Visitantes florais","Visitantes florais",1,"#E16A86",1,1
+"polinizacao","Tropidia quadrata","Tropidia quadrata","Visitantes florais","Visitantes florais",6,"#00A2D3",2,4
+"polinizacao","Tychius stephensi","Tychius stephensi","Visitantes florais","Visitantes florais",4,"#00A846",1,3
+"polinizacao","Vespula arenaria","Vespula arenaria","Visitantes florais","Visitantes florais",8,"#D766C9",1,1
+"polinizacao","Xylota bigelowi","Xylota bigelowi","Visitantes florais","Visitantes florais",4,"#00A846",1,10
+"polinizacao","Xylota hinei","Xylota hinei","Visitantes florais","Visitantes florais",4,"#00A846",2,3
+"polinizacao","Xylota sp.","Xylota sp.","Visitantes florais","Visitantes florais",4,"#00A846",1,1
+"polinizacao","Zeraea americana","Zeraea americana","Visitantes florais","Visitantes florais",5,"#00AD9A",2,2
+"dispersao","Alchornea triplinervia","Alchornea triplinervia","Plantas","Plantas",1,"#E16A86",1,1
+"dispersao","Amaranthace","Amaranthace","Plantas","Plantas",2,"#C7821C",4,12
+"dispersao","Anthurium acaule","Anthurium acaule","Plantas","Plantas",1,"#E16A86",1,1
+"dispersao","Anthurium sp.","Anthurium sp.","Plantas","Plantas",3,"#909800",6,10
+"dispersao","Araceae 1 [linha 6]","Araceae 1 [linha 6]","Plantas","Plantas",1,"#E16A86",1,1
+"dispersao","Araceae 1 [linha 7]","Araceae 1 [linha 7]","Plantas","Plantas",2,"#C7821C",4,15
+"dispersao","Araceae 2","Araceae 2","Plantas","Plantas",1,"#E16A86",1,1
+"dispersao","Cactacea 1","Cactacea 1","Plantas","Plantas",2,"#C7821C",1,1
+"dispersao","Cecropia distachya","Cecropia distachya","Plantas","Plantas",4,"#00A846",7,66
+"dispersao","Cecropia ficifolia","Cecropia ficifolia","Plantas","Plantas",3,"#909800",11,111
+"dispersao","Cecropia membranacea","Cecropia membranacea","Plantas","Plantas",4,"#00A846",5,41
+"dispersao","Cecropia sciadophylla","Cecropia sciadophylla","Plantas","Plantas",4,"#00A846",3,13
+"dispersao","Clidemia epiphytica","Clidemia epiphytica","Plantas","Plantas",1,"#E16A86",1,1
+"dispersao","Clidemia hirta","Clidemia hirta","Plantas","Plantas",1,"#E16A86",3,4
+"dispersao","Clidemia japurensis","Clidemia japurensis","Plantas","Plantas",1,"#E16A86",1,2
+"dispersao","Clusia sp.","Clusia sp.","Plantas","Plantas",1,"#E16A86",1,2
+"dispersao","Codonanthe sp.","Codonanthe sp.","Plantas","Plantas",1,"#E16A86",1,1
+"dispersao","Coussapoa parvifolia","Coussapoa parvifolia","Plantas","Plantas",1,"#E16A86",4,5
+"dispersao","Coussapoa sp.","Coussapoa sp.","Plantas","Plantas",1,"#E16A86",1,2
+"dispersao","Coussapoa villosa","Coussapoa villosa","Plantas","Plantas",3,"#909800",6,7
+"dispersao","Croton schiedianus","Croton schiedianus","Plantas","Plantas",1,"#E16A86",1,1
+"dispersao","Cucurbitaceae 1","Cucurbitaceae 1","Plantas","Plantas",2,"#C7821C",1,1
+"dispersao","Dilleniaceae 1","Dilleniaceae 1","Plantas","Plantas",1,"#E16A86",1,1
+"dispersao","Ficus americana","Ficus americana","Plantas","Plantas",1,"#E16A86",2,2
+"dispersao","Ficus sp.","Ficus sp.","Plantas","Plantas",1,"#E16A86",1,1
+"dispersao","Ficus sp.1","Ficus sp.1","Plantas","Plantas",3,"#909800",2,4
+"dispersao","Ficus sp.2","Ficus sp.2","Plantas","Plantas",3,"#909800",7,19
+"dispersao","Ficus sp.3","Ficus sp.3","Plantas","Plantas",3,"#909800",3,4
+"dispersao","Ficus sp.42","Ficus sp.42","Plantas","Plantas",2,"#C7821C",1,1
+"dispersao","Ficus sp.9","Ficus sp.9","Plantas","Plantas",2,"#C7821C",1,1
+"dispersao","Gesneriaceae 1","Gesneriaceae 1","Plantas","Plantas",2,"#C7821C",1,1
+"dispersao","Gurania acuminata","Gurania acuminata","Plantas","Plantas",4,"#00A846",2,4
+"dispersao","Guttiferae 1","Guttiferae 1","Plantas","Plantas",5,"#00AD9A",3,14
+"dispersao","Havetiopsis flavida","Havetiopsis flavida","Plantas","Plantas",1,"#E16A86",6,11
+"dispersao","Henriettea sp.","Henriettea sp.","Plantas","Plantas",1,"#E16A86",3,5
+"dispersao","Iryanthera grandis","Iryanthera grandis","Plantas","Plantas",1,"#E16A86",1,1
+"dispersao","Loreya arborescens","Loreya arborescens","Plantas","Plantas",1,"#E16A86",1,1
+"dispersao","Marcgravia sp.","Marcgravia sp.","Plantas","Plantas",5,"#00AD9A",1,1
+"dispersao","Marcgravia sp.301","Marcgravia sp.301","Plantas","Plantas",1,"#E16A86",7,14
+"dispersao","Marcgraviaceae 1","Marcgraviaceae 1","Plantas","Plantas",1,"#E16A86",2,2
+"dispersao","Melastomataceae 1","Melastomataceae 1","Plantas","Plantas",1,"#E16A86",1,2
+"dispersao","Melastomataceae 2","Melastomataceae 2","Plantas","Plantas",1,"#E16A86",3,6
+"dispersao","Miconia dolichorrhyncha","Miconia dolichorrhyncha","Plantas","Plantas",1,"#E16A86",4,7
+"dispersao","Miconia duckei","Miconia duckei","Plantas","Plantas",1,"#E16A86",6,41
+"dispersao","Miconia minutiflora","Miconia minutiflora","Plantas","Plantas",1,"#E16A86",3,10
+"dispersao","Miconia phanerostila","Miconia phanerostila","Plantas","Plantas",1,"#E16A86",3,4
+"dispersao","Miconia poeppigii","Miconia poeppigii","Plantas","Plantas",1,"#E16A86",1,1
+"dispersao","Miconia splendens","Miconia splendens","Plantas","Plantas",1,"#E16A86",2,3
+"dispersao","Miconia ternatifolia","Miconia ternatifolia","Plantas","Plantas",1,"#E16A86",2,10
+"dispersao","Miconia tetragona","Miconia tetragona","Plantas","Plantas",1,"#E16A86",1,1
+"dispersao","Miconia wittii","Miconia wittii","Plantas","Plantas",1,"#E16A86",3,4
+"dispersao","Ossaea araneifera","Ossaea araneifera","Plantas","Plantas",1,"#E16A86",1,2
+"dispersao","Ossaea cucullata","Ossaea cucullata","Plantas","Plantas",1,"#E16A86",5,13
+"dispersao","Palicourea punicea","Palicourea punicea","Plantas","Plantas",1,"#E16A86",1,2
+"dispersao","Passifloraceae 1","Passifloraceae 1","Plantas","Plantas",2,"#C7821C",2,6
+"dispersao","Passifloraceae 2","Passifloraceae 2","Plantas","Plantas",2,"#C7821C",1,1
+"dispersao","Philodendron sp.","Philodendron sp.","Plantas","Plantas",2,"#C7821C",2,3
+"dispersao","Philodendrum cuneatum","Philodendrum cuneatum","Plantas","Plantas",5,"#00AD9A",6,11
+"dispersao","Physalis sp.","Physalis sp.","Plantas","Plantas",2,"#C7821C",1,1
+"dispersao","Phytolacca rivinoides","Phytolacca rivinoides","Plantas","Plantas",2,"#C7821C",2,13
+"dispersao","Piper aduncum","Piper aduncum","Plantas","Plantas",2,"#C7821C",8,203
+"dispersao","Piper arboreum","Piper arboreum","Plantas","Plantas",2,"#C7821C",5,33
+"dispersao","Piper sp.1","Piper sp.1","Plantas","Plantas",2,"#C7821C",3,4
+"dispersao","Piper sp.2","Piper sp.2","Plantas","Plantas",2,"#C7821C",3,15
+"dispersao","Piper sp.3","Piper sp.3","Plantas","Plantas",2,"#C7821C",1,1
+"dispersao","Piperaceae 1","Piperaceae 1","Plantas","Plantas",2,"#C7821C",3,7
+"dispersao","Piperaceae 2","Piperaceae 2","Plantas","Plantas",2,"#C7821C",2,3
+"dispersao","Pothomorphepeltata","Pothomorphepeltata","Plantas","Plantas",2,"#C7821C",2,7
+"dispersao","Psychotria alboviridula","Psychotria alboviridula","Plantas","Plantas",1,"#E16A86",2,3
+"dispersao","Psychotria deflexa","Psychotria deflexa","Plantas","Plantas",1,"#E16A86",1,2
+"dispersao","Psychotria sp.","Psychotria sp.","Plantas","Plantas",1,"#E16A86",1,2
+"dispersao","Rubiaeceae 1","Rubiaeceae 1","Plantas","Plantas",1,"#E16A86",3,3
+"dispersao","Solanum jamaicens","Solanum jamaicens","Plantas","Plantas",2,"#C7821C",1,1
+"dispersao","Solanum lanceolatum","Solanum lanceolatum","Plantas","Plantas",2,"#C7821C",5,23
+"dispersao","Solanum sp.","Solanum sp.","Plantas","Plantas",3,"#909800",3,4
+"dispersao","Sorocea sp.","Sorocea sp.","Plantas","Plantas",1,"#E16A86",1,1
+"dispersao","Souroubea guianensis","Souroubea guianensis","Plantas","Plantas",1,"#E16A86",6,6
+"dispersao","Thoracocarpus bissectus","Thoracocarpus bissectus","Plantas","Plantas",2,"#C7821C",1,1
+"dispersao","Tococa discolor","Tococa discolor","Plantas","Plantas",1,"#E16A86",3,4
+"dispersao","Tococa guianensis","Tococa guianensis","Plantas","Plantas",1,"#E16A86",1,1
+"dispersao","unidentified 1","unidentified 1","Plantas","Plantas",4,"#00A846",1,3
+"dispersao","unidentified 2","unidentified 2","Plantas","Plantas",2,"#C7821C",1,1
+"dispersao","unidentified 3","unidentified 3","Plantas","Plantas",4,"#00A846",1,1
+"dispersao","Vismia angusta","Vismia angusta","Plantas","Plantas",2,"#C7821C",9,264
+"dispersao","Vismia macrophylla","Vismia macrophylla","Plantas","Plantas",2,"#C7821C",6,54
+"dispersao","Vismia sp.1","Vismia sp.1","Plantas","Plantas",2,"#C7821C",2,2
+"dispersao","Vismia sp.2","Vismia sp.2","Plantas","Plantas",2,"#C7821C",1,1
+"dispersao","Catharus ustulatus","Catharus ustulatus","Frugívoros","Aves",1,"#E16A86",7,9
+"dispersao","Machaeropterus regulus","Machaeropterus regulus","Frugívoros","Aves",1,"#E16A86",10,15
+"dispersao","Manacus manacus","Manacus manacus","Frugívoros","Aves",1,"#E16A86",7,10
+"dispersao","Pipra coronata","Pipra coronata","Frugívoros","Aves",1,"#E16A86",14,28
+"dispersao","Pipra pipra","Pipra pipra","Frugívoros","Aves",1,"#E16A86",32,91
+"dispersao","Tachyphonus surinamus","Tachyphonus surinamus","Frugívoros","Aves",1,"#E16A86",16,22
+"dispersao","Tangara schrankii","Tangara schrankii","Frugívoros","Aves",1,"#E16A86",8,11
+"dispersao","Artibeus gnomus","Artibeus gnomus","Frugívoros","Morcegos",3,"#909800",6,13
+"dispersao","Artibeus jamaicensis","Artibeus jamaicensis","Frugívoros","Morcegos",3,"#909800",11,28
+"dispersao","Artibeus lituratus","Artibeus lituratus","Frugívoros","Morcegos",3,"#909800",7,35
+"dispersao","Artibeus obscurus","Artibeus obscurus","Frugívoros","Morcegos",3,"#909800",2,21
+"dispersao","Carollia brevicauda","Carollia brevicauda","Frugívoros","Morcegos",2,"#C7821C",33,228
+"dispersao","Carollia castanea","Carollia castanea","Frugívoros","Morcegos",2,"#C7821C",14,47
+"dispersao","Carollia perspicillata","Carollia perspicillata","Frugívoros","Morcegos",2,"#C7821C",34,445
+"dispersao","Phyllostomus hastatus","Phyllostomus hastatus","Frugívoros","Morcegos",4,"#00A846",12,110
+"dispersao","Rhinophylla pumilio","Rhinophylla pumilio","Frugívoros","Morcegos",5,"#00AD9A",10,40
+"dispersao","Sturnira lilium","Sturnira lilium","Frugívoros","Morcegos",3,"#909800",6,11
+"dispersao","Uroderma bilobatum","Uroderma bilobatum","Frugívoros","Morcegos",3,"#909800",7,13
+"herbivoria","Aristida writgii","Aristida writgii","Plantas","Plantas",1,"#E16A86",1,1
+"herbivoria","Bouteloua curtipendula","Bouteloua curtipendula","Plantas","Plantas",1,"#E16A86",2,2
+"herbivoria","Bouteloua gracilis","Bouteloua gracilis","Plantas","Plantas",1,"#E16A86",17,17
+"herbivoria","Bouteloua hirsuta","Bouteloua hirsuta","Plantas","Plantas",1,"#E16A86",13,13
+"herbivoria","Buchloe dactyloides","Buchloe dactyloides","Plantas","Plantas",2,"#C7821C",8,8
+"herbivoria","Ergarostis intermedia","Ergarostis intermedia","Plantas","Plantas",2,"#C7821C",4,4
+"herbivoria","Hilaria mutica","Hilaria mutica","Plantas","Plantas",3,"#909800",2,2
+"herbivoria","Leptaloma cognata","Leptaloma cognata","Plantas","Plantas",4,"#00A846",1,1
+"herbivoria","Muhlenbergia sp.","Muhlenbergia sp.","Plantas","Plantas",2,"#C7821C",2,2
+"herbivoria","Scleropogon brevifolius","Scleropogon brevifolius","Plantas","Plantas",1,"#E16A86",2,2
+"herbivoria","Setaria leucophila","Setaria leucophila","Plantas","Plantas",3,"#909800",1,1
+"herbivoria","Sporobolus sp.","Sporobolus sp.","Plantas","Plantas",3,"#909800",3,3
+"herbivoria","Unidentified sp.","Unidentified sp.","Plantas","Plantas",3,"#909800",2,2
+"herbivoria","Tidestromia lanuginosa","Tidestromia lanuginosa","Plantas","Plantas",5,"#00AD9A",2,2
+"herbivoria","Asclepius sp.","Asclepius sp.","Plantas","Plantas",6,"#00A2D3",1,1
+"herbivoria","Dyssodia acerosa","Dyssodia acerosa","Plantas","Plantas",5,"#00AD9A",1,1
+"herbivoria","Gaillardia pinnatifida","Gaillardia pinnatifida","Plantas","Plantas",7,"#9183E6",3,3
+"herbivoria","Machaeranthera scabrella","Machaeranthera scabrella","Plantas","Plantas",5,"#00AD9A",1,1
+"herbivoria","Iva ambrosiaefolia","Iva ambrosiaefolia","Plantas","Plantas",4,"#00A846",3,3
+"herbivoria","Xanthocephalum texanum","Xanthocephalum texanum","Plantas","Plantas",2,"#C7821C",6,6
+"herbivoria","Zinnia grandiflora","Zinnia grandiflora","Plantas","Plantas",5,"#00AD9A",1,1
+"herbivoria","Cryptantha mexicana","Cryptantha mexicana","Plantas","Plantas",7,"#9183E6",5,5
+"herbivoria","Lepidum lasiocarpum","Lepidum lasiocarpum","Plantas","Plantas",4,"#00A846",2,2
+"herbivoria","Lesquerella fendleri","Lesquerella fendleri","Plantas","Plantas",4,"#00A846",4,4
+"herbivoria","Choenopodium sp.","Choenopodium sp.","Plantas","Plantas",7,"#9183E6",2,2
+"herbivoria","Convolvulus equitans","Convolvulus equitans","Plantas","Plantas",5,"#00AD9A",1,1
+"herbivoria","Argythamnia neomexicana","Argythamnia neomexicana","Plantas","Plantas",3,"#909800",2,2
+"herbivoria","Croton pottsii","Croton pottsii","Plantas","Plantas",4,"#00A846",10,10
+"herbivoria","Acacia constricta","Acacia constricta","Plantas","Plantas",7,"#9183E6",1,1
+"herbivoria","Cassia roemeriana","Cassia roemeriana","Plantas","Plantas",5,"#00AD9A",1,1
+"herbivoria","Dalea greggii","Dalea greggii","Plantas","Plantas",5,"#00AD9A",2,2
+"herbivoria","Buddleja scordioides","Buddleja scordioides","Plantas","Plantas",5,"#00AD9A",1,1
+"herbivoria","Sida filicaulis","Sida filicaulis","Plantas","Plantas",7,"#9183E6",1,1
+"herbivoria","Allionia incarnata","Allionia incarnata","Plantas","Plantas",5,"#00AD9A",4,4
+"herbivoria","Calyophus hartwegii","Calyophus hartwegii","Plantas","Plantas",7,"#9183E6",1,1
+"herbivoria","Guara coccinea","Guara coccinea","Plantas","Plantas",5,"#00AD9A",1,1
+"herbivoria","Gilia rigidula","Gilia rigidula","Plantas","Plantas",7,"#9183E6",3,3
+"herbivoria","Polygala longa","Polygala longa","Plantas","Plantas",4,"#00A846",6,6
+"herbivoria","Castilleja sp.","Castilleja sp.","Plantas","Plantas",5,"#00AD9A",1,1
+"herbivoria","Verbena wrightii","Verbena wrightii","Plantas","Plantas",5,"#00AD9A",2,2
+"herbivoria","Unidentified voucher No.28","Unidentified voucher No.28","Plantas","Plantas",5,"#00AD9A",2,2
+"herbivoria","Unknown voucher No. 1","Unknown voucher No. 1","Plantas","Plantas",2,"#C7821C",1,1
+"herbivoria","Unknown Forb B","Unknown Forb B","Plantas","Plantas",7,"#9183E6",5,5
+"herbivoria","Unknown Forb C","Unknown Forb C","Plantas","Plantas",2,"#C7821C",11,11
+"herbivoria","Unknown Forb D","Unknown Forb D","Plantas","Plantas",3,"#909800",4,4
+"herbivoria","Unknown Forb F","Unknown Forb F","Plantas","Plantas",5,"#00AD9A",1,1
+"herbivoria","Unknown Forb G","Unknown Forb G","Plantas","Plantas",1,"#E16A86",4,4
+"herbivoria","Unknown Forb H","Unknown Forb H","Plantas","Plantas",5,"#00AD9A",1,1
+"herbivoria","Unknown Forb I","Unknown Forb I","Plantas","Plantas",3,"#909800",1,1
+"herbivoria","Unknown Forb J","Unknown Forb J","Plantas","Plantas",7,"#9183E6",6,6
+"herbivoria","Unknown Forb K","Unknown Forb K","Plantas","Plantas",5,"#00AD9A",5,5
+"herbivoria","Unknown Forb L","Unknown Forb L","Plantas","Plantas",6,"#00A2D3",2,2
+"herbivoria","Unknown Forb M","Unknown Forb M","Plantas","Plantas",7,"#9183E6",3,3
+"herbivoria","Unknown Forb N","Unknown Forb N","Plantas","Plantas",5,"#00AD9A",1,1
+"herbivoria","Acrolophitus variegatus","Acrolophitus variegatus","Herbívoros","Herbívoros",4,"#00A846",5,5
+"herbivoria","Ageneotettix deorum","Ageneotettix deorum","Herbívoros","Herbívoros",1,"#E16A86",6,6
+"herbivoria","Aulocara femoratum","Aulocara femoratum","Herbívoros","Herbívoros",3,"#909800",5,5
+"herbivoria","Cibolacris parviceps","Cibolacris parviceps","Herbívoros","Herbívoros",7,"#9183E6",12,12
+"herbivoria","Eritettix variabilis","Eritettix variabilis","Herbívoros","Herbívoros",2,"#C7821C",3,3
+"herbivoria","Heliaula rufa","Heliaula rufa","Herbívoros","Herbívoros",1,"#E16A86",6,6
+"herbivoria","Mermiria bivittata","Mermiria bivittata","Herbívoros","Herbívoros",2,"#C7821C",3,3
+"herbivoria","Opeia obscura","Opeia obscura","Herbívoros","Herbívoros",2,"#C7821C",3,3
+"herbivoria","Parapomala wyomingensis","Parapomala wyomingensis","Herbívoros","Herbívoros",1,"#E16A86",2,2
+"herbivoria","Pedioscirtetes maculipennis","Pedioscirtetes maculipennis","Herbívoros","Herbívoros",6,"#00A2D3",6,6
+"herbivoria","Psoloessa texana","Psoloessa texana","Herbívoros","Herbívoros",2,"#C7821C",5,5
+"herbivoria","Syrbula fuscovittata","Syrbula fuscovittata","Herbívoros","Herbívoros",1,"#E16A86",2,2
+"herbivoria","Arphia aberrans","Arphia aberrans","Herbívoros","Herbívoros",2,"#C7821C",4,4
+"herbivoria","Arphia crassa","Arphia crassa","Herbívoros","Herbívoros",1,"#E16A86",3,3
+"herbivoria","Hadrotettix trifasciatus","Hadrotettix trifasciatus","Herbívoros","Herbívoros",7,"#9183E6",17,17
+"herbivoria","Leprus cyaneus","Leprus cyaneus","Herbívoros","Herbívoros",1,"#E16A86",6,6
+"herbivoria","Trachyrachys aspera","Trachyrachys aspera","Herbívoros","Herbívoros",1,"#E16A86",2,2
+"herbivoria","Trimerotropis pallidipennis","Trimerotropis pallidipennis","Herbívoros","Herbívoros",3,"#909800",20,20
+"herbivoria","Xanthippus corallipes","Xanthippus corallipes","Herbívoros","Herbívoros",4,"#00A846",5,5
+"herbivoria","Hesperotettix viridis","Hesperotettix viridis","Herbívoros","Herbívoros",5,"#00AD9A",7,7
+"herbivoria","Melanoplus arizonae","Melanoplus arizonae","Herbívoros","Herbívoros",5,"#00AD9A",12,12
+"herbivoria","Melanoplus desultorius","Melanoplus desultorius","Herbívoros","Herbívoros",5,"#00AD9A",23,23
+"herbivoria","Melanoplus gladstoni","Melanoplus gladstoni","Herbívoros","Herbívoros",4,"#00A846",10,10
+"herbivoria","Phoetaliotes nebrascensis","Phoetaliotes nebrascensis","Herbívoros","Herbívoros",2,"#C7821C",6,6
